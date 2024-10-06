@@ -299,3 +299,58 @@ def obtener_artista_por_id(artist_id: int):
     except Exception as e:
         # Manejo genérico de excepciones
         raise HTTPException(status_code=500, detail=f"Error interno al obtener recomendaciones: {str(e)}")
+
+@app.get("/ticket/{artist_id}", summary="Envía la información del artista a otro servicio.")
+def enviar_ticket(artist_id: int):
+    json_principal_path = "artistas_web.json"  # Asegúrate de que esta ruta es correcta
+    try:
+        # Verificar si el archivo JSON existe
+        if not os.path.exists(json_principal_path):
+            raise HTTPException(status_code=500, detail=f"No se encontró el archivo '{json_principal_path}'.")
+
+        # Leer el contenido del archivo JSON
+        with open(json_principal_path, "r", encoding="utf-8") as infile:
+            json_principal = json.load(infile)
+
+        # Validar la estructura del JSON
+        if not isinstance(json_principal, dict) or "artistas" not in json_principal:
+            raise HTTPException(status_code=500, detail="El formato del archivo JSON principal es inválido.")
+
+        # Buscar el artista por su ID
+        artista_encontrado = next((artista for artista in json_principal["artistas"] if artista.get("artist_id") == artist_id), None)
+
+        if not artista_encontrado:
+            raise HTTPException(status_code=404, detail=f"Artista con ID {artist_id} no encontrado.")
+
+        # Extraer los datos necesarios del artista
+        datos_artista = {
+            "nombre": artista_encontrado.get("artist_name"),
+            "fecha_evento": artista_encontrado.get("concert_date"),
+            "hora_evento": artista_encontrado.get("concert_time"),
+            "imagen": artista_encontrado.get("photo_url")
+        }
+
+        # Construir el payload para enviar a localhost:8080/ticket
+        payload = {
+            "artist": datos_artista,
+            "qr_code": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Rickrolling_QR_code.png?20200615212723",  # Puedes cambiar este valor si es necesario
+            "email": "lucasabello4@gmail.com"  # Puedes cambiar este valor si es necesario
+        }
+
+        # Enviar la solicitud POST a localhost:8080/ticket
+        response = requests.post("http://localhost:8080/ticket", json=payload)
+
+        # Verificar la respuesta
+        if response.status_code != 200:
+            raise HTTPException(status_code=response.status_code, detail=f"Error al enviar el ticket: {response.text}")
+
+        return {"detail": "Ticket enviado correctamente."}
+
+    except FileNotFoundError:
+        raise HTTPException(status_code=500, detail=f"No se pudo encontrar el archivo '{json_principal_path}'.")
+    except json.JSONDecodeError:
+        raise HTTPException(status_code=500, detail="Error al decodificar el archivo JSON principal.")
+    except HTTPException as http_exc:
+        raise http_exc
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error interno al enviar el ticket: {str(e)}")
