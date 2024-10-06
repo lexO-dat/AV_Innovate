@@ -35,3 +35,19 @@ model = Word2Vec(sentences=genres_list, vector_size=100, window=5, min_count=1, 
 model.save("word2vec_genres.model")
 
 print("Modelo Word2Vec entrenado y guardado exitosamente.")
+
+
+payload = {
+            "mail": "Usuario",
+            "subject": "Recomendaciones musicales personalizadas",
+            "body": "Basado en tus preferencias musicales, estos son algunos artistas recomendados.",
+            "artists": [
+                {
+                    "nombre": artista["artist_name"],
+                    "fecha_evento": artista.get("concert_date", "Fecha no disponible"),
+                    "hora_evento": artista.get("concert_time", "Hora no disponible"),
+                    "imagen": artista.get("photo_url", "URL no disponible")
+                } for artista in artistas_a_enviar
+            ],
+            "destinationEmail": "lucasabello4@gmail.com"  # Modifica el correo según sea necesario
+        }

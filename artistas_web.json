@@ -1,0 +1,3299 @@
+{
+    "artistas": [
+        {
+            "artist_id": 1,
+            "artist_name": "The Beatles",
+            "genres": [
+                "Rock",
+                "Pop Rock",
+                "Psychedelic Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433",
+            "concert_date": "2024-11-22",
+            "concert_time": "18:08",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 272,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 219,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 136,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 83,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 2,
+            "artist_name": "Bob Marley",
+            "genres": [
+                "Reggae",
+                "Ska",
+                "Rocksteady"
+            ],
+            "photo_url": "https://i.scdn.co/image/b5aae2067db80f694a980e596e7f49618c1206c9",
+            "concert_date": "2024-11-17",
+            "concert_time": "19:36",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 269,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 204,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 104,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 51,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 3,
+            "artist_name": "Miles Davis",
+            "genres": [
+                "Jazz",
+                "Bebop",
+                "Cool Jazz",
+                "Jazz Fusion"
+            ],
+            "photo_url": "https://i.scdn.co/image/423e826b3c1b23930a255d7cbc2daf733f795507",
+            "concert_date": "2024-11-16",
+            "concert_time": "19:13",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 315,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 215,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 112,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 71,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 4,
+            "artist_name": "Madonna",
+            "genres": [
+                "Pop",
+                "Dance-Pop",
+                "Electronic"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb4b36d28b55620959821f4a5b",
+            "concert_date": "2024-12-03",
+            "concert_time": "21:03",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 303,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 184,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 129,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 88,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 5,
+            "artist_name": "Metallica",
+            "genres": [
+                "Heavy Metal",
+                "Thrash Metal"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb69ca98dd3083f1082d740e44",
+            "concert_date": "2024-11-25",
+            "concert_time": "21:18",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 273,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 226,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 141,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 92,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 6,
+            "artist_name": "Bob Dylan",
+            "genres": [
+                "Folk",
+                "Folk Rock",
+                "Country Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6772690000c46cd7064356b04a156664a37c4f",
+            "concert_date": "2024-12-11",
+            "concert_time": "20:13",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 267,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 242,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 145,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 82,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 7,
+            "artist_name": "Beyonc\u00e9",
+            "genres": [
+                "R&B",
+                "Pop R&B",
+                "Hip Hop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb247f44069c0bd1781df2f785",
+            "concert_date": "2024-12-15",
+            "concert_time": "22:53",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 290,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 243,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 107,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 97,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 8,
+            "artist_name": "Johann Sebastian Bach",
+            "genres": [
+                "Classical",
+                "Baroque"
+            ],
+            "photo_url": "https://i.scdn.co/image/a2ec08fe69ecec2748fbc764aede8f1b03ae8f88",
+            "concert_date": "2024-11-20",
+            "concert_time": "22:30",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 266,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 247,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 117,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 80,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 9,
+            "artist_name": "Eminem",
+            "genres": [
+                "Hip Hop",
+                "Rap",
+                "Hardcore Hip Hop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb9a398209a4ef3360dce2dec4",
+            "concert_date": "2024-11-15",
+            "concert_time": "18:30",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 295,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 185,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 113,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 96,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 10,
+            "artist_name": "David Bowie",
+            "genres": [
+                "Art Rock",
+                "Glam Rock",
+                "Experimental Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebb78f77c5583ae99472dd4a49",
+            "concert_date": "2024-11-17",
+            "concert_time": "19:23",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 321,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 192,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 135,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 79,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 11,
+            "artist_name": "Ella Fitzgerald",
+            "genres": [
+                "Jazz Vocal",
+                "Swing",
+                "Traditional Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/3c1d23141059785c8a863137d176319329dc17ef",
+            "concert_date": "2024-11-18",
+            "concert_time": "20:23",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 334,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 189,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 110,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 75,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 12,
+            "artist_name": "Bj\u00f6rk",
+            "genres": [
+                "Art Pop",
+                "Electronic",
+                "Experimental"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebaeb5c04fdd8ec6273850d207",
+            "concert_date": "2024-11-18",
+            "concert_time": "23:16",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 268,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 201,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 121,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 81,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 13,
+            "artist_name": "Johnny Cash",
+            "genres": [
+                "Country",
+                "Rockabilly",
+                "Gospel"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb94a8326675bfcafb20f0a235",
+            "concert_date": "2024-11-23",
+            "concert_time": "23:23",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 278,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 200,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 127,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 87,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 14,
+            "artist_name": "Prince",
+            "genres": [
+                "Funk",
+                "Soul",
+                "Minneapolis Sound"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebeaca358712b3fe4ed9814640",
+            "concert_date": "2024-11-28",
+            "concert_time": "18:37",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 259,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 238,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 100,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 94,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 15,
+            "artist_name": "Radiohead",
+            "genres": [
+                "Alternative Rock",
+                "Art Rock",
+                "Electronic Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eba03696716c9ee605006047fd",
+            "concert_date": "2024-11-25",
+            "concert_time": "23:28",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 309,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 187,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 105,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 53,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 16,
+            "artist_name": "Stevie Wonder",
+            "genres": [
+                "Soul",
+                "R&B",
+                "Funk"
+            ],
+            "photo_url": "https://i.scdn.co/image/c59faacbed7aa770266bad048660810eca204108",
+            "concert_date": "2024-11-25",
+            "concert_time": "21:46",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 286,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 213,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 122,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 85,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 17,
+            "artist_name": "Nina Simone",
+            "genres": [
+                "Jazz",
+                "Blues",
+                "Soul"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
+            "concert_date": "2024-12-01",
+            "concert_time": "21:45",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 323,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 243,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 103,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 69,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 18,
+            "artist_name": "Kraftwerk",
+            "genres": [
+                "Electronic",
+                "Synthpop",
+                "Techno"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebc46999e5afaf35c91cbe652b",
+            "concert_date": "2024-11-18",
+            "concert_time": "23:22",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 279,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 197,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 121,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 75,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 19,
+            "artist_name": "Bob Marley & The Wailers",
+            "genres": [
+                "Reggae",
+                "Roots Reggae"
+            ],
+            "photo_url": "https://i.scdn.co/image/b5aae2067db80f694a980e596e7f49618c1206c9",
+            "concert_date": "2024-12-10",
+            "concert_time": "21:20",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 309,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 180,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 111,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 95,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 20,
+            "artist_name": "Queen",
+            "genres": [
+                "Rock",
+                "Hard Rock",
+                "Arena Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb909b2c4b7c768ee03445cd10",
+            "concert_date": "2024-11-24",
+            "concert_time": "22:10",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 307,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 201,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 127,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 73,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 22,
+            "artist_name": "Aretha Franklin",
+            "genres": [
+                "Soul",
+                "R&B",
+                "Gospel"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebf12270128127ba170f90097d",
+            "concert_date": "2024-12-10",
+            "concert_time": "22:33",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 287,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 207,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 146,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 87,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 23,
+            "artist_name": "Pink Floyd",
+            "genres": [
+                "Progressive Rock",
+                "Psychedelic Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/e69f71e2be4b67b82af90fb8e9d805715e0684fa",
+            "concert_date": "2024-11-30",
+            "concert_time": "20:28",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 321,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 194,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 142,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 57,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 24,
+            "artist_name": "Rihanna",
+            "genres": [
+                "Pop",
+                "R&B",
+                "Dance"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb99e4fca7c0b7cb166d915789",
+            "concert_date": "2024-12-13",
+            "concert_time": "20:23",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 252,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 248,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 139,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 63,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 25,
+            "artist_name": "Chuck Berry",
+            "genres": [
+                "Rock and Roll",
+                "Blues"
+            ],
+            "photo_url": "https://i.scdn.co/image/d58323616d4f5d22b51e9dfe0ba53aedabe53cd4",
+            "concert_date": "2024-11-20",
+            "concert_time": "22:37",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 307,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 185,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 135,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 50,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 26,
+            "artist_name": "Nirvana",
+            "genres": [
+                "Grunge",
+                "Alternative Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/84282c28d851a700132356381fcfbadc67ff498b",
+            "concert_date": "2024-12-10",
+            "concert_time": "20:04",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 344,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 205,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 102,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 99,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 27,
+            "artist_name": "Lady Gaga",
+            "genres": [
+                "Pop",
+                "Dance-Pop",
+                "Art Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb60f57316669a4ba12eb37b94",
+            "concert_date": "2024-11-17",
+            "concert_time": "22:44",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 255,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 229,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 115,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 93,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 28,
+            "artist_name": "Miles Davis",
+            "genres": [
+                "Jazz",
+                "Modal Jazz",
+                "Jazz Fusion"
+            ],
+            "photo_url": "https://i.scdn.co/image/423e826b3c1b23930a255d7cbc2daf733f795507",
+            "concert_date": "2024-12-04",
+            "concert_time": "19:57",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 294,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 230,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 149,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 93,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 29,
+            "artist_name": "The Rolling Stones",
+            "genres": [
+                "Rock",
+                "Blues Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebe4cea917b68726aadb4854b8",
+            "concert_date": "2024-11-25",
+            "concert_time": "21:17",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 263,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 198,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 105,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 74,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 30,
+            "artist_name": "Kendrick Lamar",
+            "genres": [
+                "Hip Hop",
+                "Conscious Hip Hop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb437b9e2a82505b3d93ff1022",
+            "concert_date": "2024-11-19",
+            "concert_time": "20:26",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 338,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 190,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 142,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 85,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 31,
+            "artist_name": "Dolly Parton",
+            "genres": [
+                "Country",
+                "Bluegrass",
+                "Country Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb33c82e34ebf51636457796ff",
+            "concert_date": "2024-12-11",
+            "concert_time": "20:54",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 347,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 182,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 144,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 81,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 32,
+            "artist_name": "AC/DC",
+            "genres": [
+                "Hard Rock",
+                "Blues Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebc4c77549095c86acb4e77b37",
+            "concert_date": "2024-11-29",
+            "concert_time": "18:45",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 326,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 238,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 143,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 60,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 33,
+            "artist_name": "Coldplay",
+            "genres": [
+                "Alternative Rock",
+                "Pop Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb1ba8fc5f5c73e7e9313cc6eb",
+            "concert_date": "2024-12-12",
+            "concert_time": "21:58",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 348,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 202,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 112,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 62,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 34,
+            "artist_name": "Whitney Houston",
+            "genres": [
+                "Pop",
+                "R&B",
+                "Soul"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebcd9f60ab57585bf3b77ecc51",
+            "concert_date": "2024-11-23",
+            "concert_time": "23:35",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 320,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 227,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 117,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 89,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 35,
+            "artist_name": "Ludwig van Beethoven",
+            "genres": [
+                "Classical",
+                "Romantic"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eba636b0b244253f602a629796",
+            "concert_date": "2024-11-25",
+            "concert_time": "18:57",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 260,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 212,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 143,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 83,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 36,
+            "artist_name": "The Who",
+            "genres": [
+                "Rock",
+                "Hard Rock",
+                "Art Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/9cd709cabb4a614b4f1dd9ec256a5f30e21f0150",
+            "concert_date": "2024-11-18",
+            "concert_time": "23:20",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 270,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 246,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 130,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 75,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 37,
+            "artist_name": "Drake",
+            "genres": [
+                "Hip Hop",
+                "R&B",
+                "Pop Rap"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb437b9e2a82505b3d93ff1022",
+            "concert_date": "2024-12-04",
+            "concert_time": "21:21",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 331,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 237,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 129,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 97,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 38,
+            "artist_name": "Tina Turner",
+            "genres": [
+                "Rock",
+                "Soul",
+                "R&B"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb22102415297132237b78829d",
+            "concert_date": "2024-11-26",
+            "concert_time": "21:12",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 290,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 191,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 133,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 100,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 39,
+            "artist_name": "Daft Punk",
+            "genres": [
+                "Electronic",
+                "House",
+                "French House"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eba7bfd7835b5c1eee0c95fa6e",
+            "concert_date": "2024-12-09",
+            "concert_time": "23:08",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 264,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 227,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 124,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 77,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 40,
+            "artist_name": "Kanye West",
+            "genres": [
+                "Hip Hop",
+                "Pop Rap",
+                "Art Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb6e835a500e791bf9c27a422a",
+            "concert_date": "2024-11-25",
+            "concert_time": "23:29",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 349,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 233,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 138,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 99,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 41,
+            "artist_name": "Led Zeppelin",
+            "genres": [
+                "Hard Rock",
+                "Blues Rock",
+                "Folk Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+            "concert_date": "2024-12-02",
+            "concert_time": "20:44",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 348,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 181,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 128,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 91,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 42,
+            "artist_name": "Elton John",
+            "genres": [
+                "Pop Rock",
+                "Glam Rock",
+                "Soft Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb0a7388b95df960b5c0da8970",
+            "concert_date": "2024-12-04",
+            "concert_time": "22:37",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 350,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 221,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 123,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 74,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 43,
+            "artist_name": "Marvin Gaye",
+            "genres": [
+                "Soul",
+                "R&B",
+                "Funk"
+            ],
+            "photo_url": "https://i.scdn.co/image/cf79bd3e5c787e2ec152eeb1ea5538b0d4cf1434",
+            "concert_date": "2024-11-17",
+            "concert_time": "18:29",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 312,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 216,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 121,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 84,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 44,
+            "artist_name": "Taylor Swift",
+            "genres": [
+                "Pop",
+                "Country Pop",
+                "Indie Folk"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebe672b5f553298dcdccb0e676",
+            "concert_date": "2024-12-12",
+            "concert_time": "21:46",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 345,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 230,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 136,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 97,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 45,
+            "artist_name": "The Beach Boys",
+            "genres": [
+                "Pop Rock",
+                "Psychedelic Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb10d4a1b12c6ceda12d7cd248",
+            "concert_date": "2024-11-21",
+            "concert_time": "22:07",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 289,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 187,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 116,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 77,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 46,
+            "artist_name": "Guns N' Roses",
+            "genres": [
+                "Hard Rock",
+                "Heavy Metal"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c",
+            "concert_date": "2024-12-05",
+            "concert_time": "21:05",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 343,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 236,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 149,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 86,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 47,
+            "artist_name": "Adele",
+            "genres": [
+                "Pop",
+                "Soul",
+                "Blue-Eyed Soul"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb304a1c66dad43b8ae673d43e",
+            "concert_date": "2024-11-16",
+            "concert_time": "23:57",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 339,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 236,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 122,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 90,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 48,
+            "artist_name": "John Coltrane",
+            "genres": [
+                "Jazz",
+                "Avant-Garde Jazz"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb73c7f7505c1af82929ec41df",
+            "concert_date": "2024-12-01",
+            "concert_time": "22:36",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 347,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 218,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 119,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 76,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 49,
+            "artist_name": "U2",
+            "genres": [
+                "Rock",
+                "Alternative Rock",
+                "Post-Punk"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebe62be215d2ee31bcd97edaba",
+            "concert_date": "2024-12-15",
+            "concert_time": "18:51",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 307,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 199,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 132,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 90,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 50,
+            "artist_name": "The Clash",
+            "genres": [
+                "Punk Rock",
+                "Post-Punk",
+                "Reggae Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab470b275daa38351810a1eb91d107ebdb821302",
+            "concert_date": "2024-11-21",
+            "concert_time": "21:30",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 266,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 208,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 126,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 59,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 51,
+            "artist_name": "Frank Sinatra",
+            "genres": [
+                "Traditional Pop",
+                "Vocal Jazz",
+                "Easy Listening"
+            ],
+            "photo_url": "https://i.scdn.co/image/fc4e0f474fb4c4cb83617aa884dc9fd9822d4411",
+            "concert_date": "2024-12-10",
+            "concert_time": "23:01",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 286,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 215,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 109,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 56,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 52,
+            "artist_name": "Red Hot Chili Peppers",
+            "genres": [
+                "Funk Rock",
+                "Alternative Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8",
+            "concert_date": "2024-11-20",
+            "concert_time": "23:29",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 318,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 208,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 106,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 70,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 53,
+            "artist_name": "Shakira",
+            "genres": [
+                "Latin Pop",
+                "Pop Rock",
+                "Dance-Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb44270f00ab4402b3fd91bad1",
+            "concert_date": "2024-11-19",
+            "concert_time": "19:08",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 278,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 224,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 137,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 56,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 54,
+            "artist_name": "Black Sabbath",
+            "genres": [
+                "Heavy Metal",
+                "Doom Metal"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb4870cd833ebe1092601820c3",
+            "concert_date": "2024-12-13",
+            "concert_time": "19:10",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 321,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 216,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 115,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 57,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 55,
+            "artist_name": "Destiny's Child",
+            "genres": [
+                "R&B",
+                "Pop",
+                "Hip Hop Soul"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebf75e64532704bd6acf0b4e76",
+            "concert_date": "2024-12-08",
+            "concert_time": "23:06",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 330,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 237,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 126,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 82,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 56,
+            "artist_name": "Green Day",
+            "genres": [
+                "Punk Rock",
+                "Pop Punk",
+                "Alternative Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebd3fa01fd4baad1158dd2fd8b",
+            "concert_date": "2024-12-08",
+            "concert_time": "18:41",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 334,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 246,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 110,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 79,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 57,
+            "artist_name": "Elvis Presley",
+            "genres": [
+                "Rock and Roll",
+                "Country",
+                "Gospel"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb9a93e273380982dff84c0d7c",
+            "concert_date": "2024-12-02",
+            "concert_time": "20:07",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 305,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 248,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 132,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 75,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 58,
+            "artist_name": "Santana",
+            "genres": [
+                "Latin Rock",
+                "Blues Rock",
+                "Jazz Fusion"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb09882b1b7b33732abd60fc38",
+            "concert_date": "2024-12-13",
+            "concert_time": "19:39",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 349,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 213,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 121,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 59,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 59,
+            "artist_name": "Foo Fighters",
+            "genres": [
+                "Alternative Rock",
+                "Post-Grunge",
+                "Hard Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebc884df599abc793c116cdf15",
+            "concert_date": "2024-12-13",
+            "concert_time": "20:54",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 267,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 250,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 148,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 96,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 60,
+            "artist_name": "Tupac Shakur",
+            "genres": [
+                "Hip Hop",
+                "West Coast Hip Hop",
+                "Gangsta Rap"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb7f5cc432c9c109248ebec1ac",
+            "concert_date": "2024-11-26",
+            "concert_time": "19:09",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 334,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 231,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 100,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 52,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 61,
+            "artist_name": "Fleetwood Mac",
+            "genres": [
+                "Rock",
+                "Soft Rock",
+                "Blues Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebc8752dd511cda8c31e9daee8",
+            "concert_date": "2024-12-05",
+            "concert_time": "21:02",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 348,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 186,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 147,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 77,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 62,
+            "artist_name": "Bruno Mars",
+            "genres": [
+                "Pop",
+                "Funk",
+                "R&B"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebc36dd9eb55fb0db4911f25dd",
+            "concert_date": "2024-12-04",
+            "concert_time": "19:08",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 325,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 196,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 131,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 97,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 63,
+            "artist_name": "The Police",
+            "genres": [
+                "New Wave",
+                "Reggae Rock",
+                "Pop Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/1f73a61faca2942cd5ea29c2143184db8645f0b3",
+            "concert_date": "2024-11-15",
+            "concert_time": "21:46",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 341,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 206,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 144,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 74,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 64,
+            "artist_name": "C\u00e9line Dion",
+            "genres": [
+                "Pop",
+                "Adult Contemporary"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebc3b380448158e7b6e5863cde",
+            "concert_date": "2024-12-01",
+            "concert_time": "23:27",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 288,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 224,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 147,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 50,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 65,
+            "artist_name": "Pearl Jam",
+            "genres": [
+                "Grunge",
+                "Alternative Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebe431fb8ba17cdee73e4ce08a",
+            "concert_date": "2024-12-03",
+            "concert_time": "20:02",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 323,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 231,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 148,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 88,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 66,
+            "artist_name": "Buddy Holly",
+            "genres": [
+                "Rock and Roll",
+                "Rockabilly"
+            ],
+            "photo_url": "https://i.scdn.co/image/ff6c6ecd90618f5fb0f8fbf51bf8477586c8843b",
+            "concert_date": "2024-12-04",
+            "concert_time": "18:55",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 307,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 230,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 149,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 91,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 67,
+            "artist_name": "The Doors",
+            "genres": [
+                "Psychedelic Rock",
+                "Blues Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb440959e022afc20e819050bd",
+            "concert_date": "2024-11-24",
+            "concert_time": "19:08",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 345,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 238,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 137,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 58,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 68,
+            "artist_name": "Alicia Keys",
+            "genres": [
+                "R&B",
+                "Soul",
+                "Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebebfd16a3bca87c31c1e20576",
+            "concert_date": "2024-12-11",
+            "concert_time": "23:42",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 324,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 241,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 107,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 77,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 70,
+            "artist_name": "Oasis",
+            "genres": [
+                "Britpop",
+                "Alternative Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb0522e98a6f0cf1ddbee9a74f",
+            "concert_date": "2024-12-11",
+            "concert_time": "22:19",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 256,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 185,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 120,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 74,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 71,
+            "artist_name": "The Supremes",
+            "genres": [
+                "Soul",
+                "Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/5c5dc3f7b4569a7727a63a44513c7a602b72da44",
+            "concert_date": "2024-12-12",
+            "concert_time": "20:43",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 270,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 250,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 106,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 78,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 72,
+            "artist_name": "Rush",
+            "genres": [
+                "Progressive Rock",
+                "Hard Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb896c4b043fb3063178afd716",
+            "concert_date": "2024-11-20",
+            "concert_time": "19:04",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 304,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 209,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 133,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 81,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 73,
+            "artist_name": "Stevie Nicks",
+            "genres": [
+                "Rock",
+                "Pop Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebff4ca8de3c5605e889efab75",
+            "concert_date": "2024-11-28",
+            "concert_time": "20:17",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 272,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 242,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 140,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 52,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 74,
+            "artist_name": "Talking Heads",
+            "genres": [
+                "New Wave",
+                "Art Punk",
+                "Post-Punk"
+            ],
+            "photo_url": "https://i.scdn.co/image/e4c5b04fce8706c87663357b1f78522a3a5c641b",
+            "concert_date": "2024-12-07",
+            "concert_time": "22:44",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 311,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 221,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 131,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 99,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 75,
+            "artist_name": "Lauryn Hill",
+            "genres": [
+                "Hip Hop",
+                "Neo Soul",
+                "R&B"
+            ],
+            "photo_url": "https://i.scdn.co/image/ccb108f19352e88d6e69b1093d75a2be5efa1c99",
+            "concert_date": "2024-11-16",
+            "concert_time": "22:57",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 251,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 226,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 111,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 90,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 76,
+            "artist_name": "Depeche Mode",
+            "genres": [
+                "Synthpop",
+                "New Wave",
+                "Electronic Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebaff13c9484fdad590ccfb73c",
+            "concert_date": "2024-11-23",
+            "concert_time": "20:52",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 259,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 208,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 129,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 74,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 77,
+            "artist_name": "Leonard Cohen",
+            "genres": [
+                "Folk",
+                "Folk Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebd09c1295779cfb71683cee99",
+            "concert_date": "2024-11-23",
+            "concert_time": "23:19",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 317,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 210,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 127,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 63,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 78,
+            "artist_name": "Rage Against the Machine",
+            "genres": [
+                "Rap Metal",
+                "Alternative Metal"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebda4bd2b213cae330e2a4a901",
+            "concert_date": "2024-12-06",
+            "concert_time": "22:04",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 305,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 193,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 118,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 59,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 79,
+            "artist_name": "Dusty Springfield",
+            "genres": [
+                "Pop",
+                "Blue-Eyed Soul"
+            ],
+            "photo_url": "https://i.scdn.co/image/8b2bbbe1dde191c637271fab24ff66fda4faf4fa",
+            "concert_date": "2024-11-23",
+            "concert_time": "21:40",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 347,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 221,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 136,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 94,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 80,
+            "artist_name": "The Velvet Underground",
+            "genres": [
+                "Experimental Rock",
+                "Proto-Punk"
+            ],
+            "photo_url": "https://i.scdn.co/image/d69c2cf10323bf08443c7d122f3a1824a760ab57",
+            "concert_date": "2024-12-05",
+            "concert_time": "22:32",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 320,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 242,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 146,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 56,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 81,
+            "artist_name": "Snoop Dogg",
+            "genres": [
+                "Hip Hop",
+                "G-Funk"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb9a398209a4ef3360dce2dec4",
+            "concert_date": "2024-12-14",
+            "concert_time": "19:45",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 295,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 207,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 118,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 52,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 82,
+            "artist_name": "Janis Joplin",
+            "genres": [
+                "Blues Rock",
+                "Psychedelic Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebbf0ee2c099003f6886e4da0c",
+            "concert_date": "2024-11-21",
+            "concert_time": "22:27",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 287,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 211,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 104,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 71,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 83,
+            "artist_name": "The Cure",
+            "genres": [
+                "Gothic Rock",
+                "Post-Punk",
+                "New Wave"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebdd427c765c409ec02dc3a868",
+            "concert_date": "2024-12-12",
+            "concert_time": "20:41",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 327,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 232,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 146,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 58,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 84,
+            "artist_name": "Willie Nelson",
+            "genres": [
+                "Country",
+                "Outlaw Country"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6772690000c46ca07b9db029b749adaba3c618",
+            "concert_date": "2024-12-09",
+            "concert_time": "20:44",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 253,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 231,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 113,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 88,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 85,
+            "artist_name": "Sonic Youth",
+            "genres": [
+                "Noise Rock",
+                "Alternative Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/af335c11a73e9311516bb28800be58311410d1be",
+            "concert_date": "2024-11-26",
+            "concert_time": "22:48",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 255,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 219,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 146,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 91,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 86,
+            "artist_name": "Donna Summer",
+            "genres": [
+                "Disco",
+                "Dance"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb9e708b5a9b76b98301d35123",
+            "concert_date": "2024-12-06",
+            "concert_time": "21:06",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 275,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 205,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 122,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 53,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 87,
+            "artist_name": "Bad Bunny",
+            "genres": [
+                "Reggaeton",
+                "Latin Trap"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb744a4243fb6cc938011a98f4",
+            "concert_date": "2024-11-19",
+            "concert_time": "19:48",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 334,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 183,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 131,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 84,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 88,
+            "artist_name": "Genesis",
+            "genres": [
+                "Progressive Rock",
+                "Pop Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebdfb2b3c69199bc2dfbf3e5b9",
+            "concert_date": "2024-11-15",
+            "concert_time": "19:24",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 323,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 219,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 128,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 72,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 89,
+            "artist_name": "Patti Smith",
+            "genres": [
+                "Punk Rock",
+                "Art Rock",
+                "Poetry Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/20e52d0b168541016f901d9ec6d4f2a0e41f193b",
+            "concert_date": "2024-12-10",
+            "concert_time": "23:35",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 280,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 231,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 117,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 84,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 90,
+            "artist_name": "Dua Lipa",
+            "genres": [
+                "Pop",
+                "Nu-Disco",
+                "Dance-Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb0c68f6c95232e716f0abee8d",
+            "concert_date": "2024-11-23",
+            "concert_time": "18:42",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 301,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 226,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 109,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 53,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 91,
+            "artist_name": "The Smiths",
+            "genres": [
+                "Alternative Rock",
+                "Indie Rock",
+                "Post-Punk"
+            ],
+            "photo_url": "https://i.scdn.co/image/481b980af463122013e4578c08fb8c5cbfaed1e9",
+            "concert_date": "2024-12-11",
+            "concert_time": "21:22",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 319,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 219,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 103,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 53,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 92,
+            "artist_name": "Fela Kuti",
+            "genres": [
+                "Afrobeat",
+                "Jazz",
+                "African Jazz"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebe8670e361382ef18bbe5b93d",
+            "concert_date": "2024-12-05",
+            "concert_time": "21:19",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 333,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 230,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 141,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 85,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 93,
+            "artist_name": "Iron Maiden",
+            "genres": [
+                "Heavy Metal",
+                "New Wave of British Heavy Metal"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb69ca98dd3083f1082d740e44",
+            "concert_date": "2024-12-13",
+            "concert_time": "18:28",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 310,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 220,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 113,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 68,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 94,
+            "artist_name": "Frank Ocean",
+            "genres": [
+                "R&B",
+                "Alternative R&B",
+                "Art Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebee3123e593174208f9754fab",
+            "concert_date": "2024-12-06",
+            "concert_time": "18:01",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 334,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 191,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 105,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 92,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 95,
+            "artist_name": "The Ramones",
+            "genres": [
+                "Punk Rock",
+                "Pop Punk"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb5b9f46a5c5bf8243179d56b0",
+            "concert_date": "2024-11-29",
+            "concert_time": "20:09",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 279,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 220,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 113,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 53,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 96,
+            "artist_name": "Billie Holiday",
+            "genres": [
+                "Jazz",
+                "Vocal Jazz",
+                "Blues"
+            ],
+            "photo_url": "https://i.scdn.co/image/4efa6b6871a0f672b78b3d16fd5a03c6cd212d58",
+            "concert_date": "2024-11-18",
+            "concert_time": "23:47",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 325,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 201,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 115,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 57,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 97,
+            "artist_name": "Massive Attack",
+            "genres": [
+                "Trip Hop",
+                "Electronic",
+                "Downtempo"
+            ],
+            "photo_url": "https://i.scdn.co/image/c8bbeedb05f38ae5cb982a7daf4bf7129cca892c",
+            "concert_date": "2024-12-03",
+            "concert_time": "19:21",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 283,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 195,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 106,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 83,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 98,
+            "artist_name": "Kate Bush",
+            "genres": [
+                "Art Pop",
+                "Progressive Pop",
+                "Art Rock"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5eb187017724e58e78ee1f5a8e4",
+            "concert_date": "2024-12-08",
+            "concert_time": "19:53",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 327,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 201,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 106,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 64,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 99,
+            "artist_name": "Slayer",
+            "genres": [
+                "Thrash Metal",
+                "Speed Metal"
+            ],
+            "photo_url": "https://i.scdn.co/image/8c81130db7b5f933412c4906c30327817f1e1b43",
+            "concert_date": "2024-11-26",
+            "concert_time": "19:37",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 304,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 234,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 126,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 100,
+                    "quantity": 20
+                }
+            ]
+        },
+        {
+            "artist_id": 100,
+            "artist_name": "Gloria Estefan",
+            "genres": [
+                "Latin Pop",
+                "Dance-Pop",
+                "Cuban Pop"
+            ],
+            "photo_url": "https://i.scdn.co/image/ab6761610000e5ebcb6ddcef04b60c7078151ac7",
+            "concert_date": "2024-11-26",
+            "concert_time": "20:00",
+            "seats": [
+                {
+                    "type": "VIP",
+                    "price": 327,
+                    "quantity": 5
+                },
+                {
+                    "type": "Premium",
+                    "price": 236,
+                    "quantity": 10
+                },
+                {
+                    "type": "General",
+                    "price": 143,
+                    "quantity": 15
+                },
+                {
+                    "type": "Economy",
+                    "price": 68,
+                    "quantity": 20
+                }
+            ]
+        }
+    ]
+}

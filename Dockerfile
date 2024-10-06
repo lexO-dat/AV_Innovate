@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Copiar los archivos de requisitos
 COPY requirements.txt .
+COPY artistas_web.json .
 
 # Instalar las dependencias
 RUN pip install --no-cache-dir -r requirements.txt

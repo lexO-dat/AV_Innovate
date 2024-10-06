@@ -1,12 +1,24 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 import pandas as pd
+import json
+import requests
 import numpy as np
 from gensim.models import Word2Vec
 import os
 
 app = FastAPI(title="Sistema de Recomendación de Artistas", version="1.0")
+
+# Habilitar CORS para permitir cualquier origen
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Permitir cualquier origen
+    allow_credentials=True,
+    allow_methods=["*"],  # Permitir todos los métodos (GET, POST, etc.)
+    allow_headers=["*"],  # Permitir cualquier encabezado
+)
 
 # Modelos de Datos
 class Artista(BaseModel):
@@ -66,7 +78,7 @@ modelo_word2vec = None
 sistema_recomendacion = None
 df_artistas = None
 
-# Endpoints
+# Endpoint para entrenar el modelo
 @app.post("/train", summary="Entrena el modelo con los datos de artistas proporcionados.")
 def train_model(data: TrainData):
     global modelo_word2vec, sistema_recomendacion, df_artistas
@@ -83,9 +95,6 @@ def train_model(data: TrainData):
         genres_list = df_artistas['genres'].tolist()
         modelo_word2vec = Word2Vec(sentences=genres_list, vector_size=100, window=5, min_count=1, workers=4)
         
-        # Opcional: Guardar el modelo entrenado
-        modelo_word2vec.save("word2vec_genres.model")
-        
         # Inicializar el sistema de recomendación
         sistema_recomendacion = RecommenderSistemaConSimilitudGeneros(df_artistas, modelo_word2vec, df_artistas)
         
@@ -93,10 +102,12 @@ def train_model(data: TrainData):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+json_recomendados = "json_recomendado.json"
+# Endpoint para generar recomendaciones basado en un POST
 @app.post("/recommend", response_model=RecommendResponse, summary="Genera recomendaciones de artistas basadas en las preferencias del usuario.")
 def recommend(recommend_request: RecommendRequest):
     global sistema_recomendacion, df_artistas, modelo_word2vec
-    
+
     if sistema_recomendacion is None:
         raise HTTPException(status_code=400, detail="El modelo no ha sido entrenado. Por favor, entrena el modelo usando el endpoint /train primero.")
     
@@ -105,6 +116,99 @@ def recommend(recommend_request: RecommendRequest):
             artistas_favoritos=recommend_request.artistas_favoritos,
             generos_explicitos=recommend_request.generos_explicitos
         )
+        
+        data_a_guardar = {"artistas": recomendaciones}
+
+        # Guardar el diccionario en un archivo JSON
+        with open("json_recomendado.json", "w", encoding="utf-8") as archivo_json:
+            json.dump(data_a_guardar, archivo_json, ensure_ascii=False, indent=4)
+        
         return RecommendResponse(recomendaciones=recomendaciones)
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail=f"Error interno al generar recomendaciones: {str(e)}")
+
+# Supongamos que el archivo JSON principal está en el mismo directorio que este script
+json_principal_path = "artistas_web.json"
+
+@app.get("/recomendaciones", summary="Devuelve recomendaciones de artistas previamente calculadas", response_model=dict)
+def obtener_recomendaciones():
+    
+    #recomendaciones = json guardado
+    
+    try:
+        with open(json_recomendados, "r", encoding="utf-8") as archivo_json:
+            recomendaciones_json = json.load(archivo_json)
+            recomendaciones = recomendaciones_json.get("artistas", [])
+    except FileNotFoundError:
+        raise HTTPException(status_code=500, detail="No se pudo encontrar el archivo JSON de recomendaciones.")
+    except json.JSONDecodeError:
+        raise HTTPException(status_code=500, detail="Error al decodificar el archivo JSON de recomendaciones.")
+    
+    try:
+        # Cargar el JSON principal desde el archivo
+        try:
+            with open(json_principal_path, "r", encoding="utf-8") as infile:
+                json_principal = json.load(infile)
+        except FileNotFoundError:
+            raise HTTPException(status_code=500, detail="No se pudo encontrar el archivo JSON principal.")
+        except json.JSONDecodeError:
+            raise HTTPException(status_code=500, detail="Error al decodificar el archivo JSON principal.")
+
+        # Asegurarse de que la estructura de datos es la esperada
+        if not isinstance(json_principal, dict) or "artistas" not in json_principal:
+            raise HTTPException(status_code=500, detail="El formato del archivo JSON principal es inválido.")
+        
+        # Filtrar los artistas recomendados del JSON principal
+        artistas_filtrados = [
+            artista for artista in json_principal["artistas"]
+            if artista.get("artist_name") in recomendaciones
+        ]
+
+        # Tomar los 2 primeros artistas recomendados
+        artistas_a_enviar = artistas_filtrados[:2]
+
+        # Crear el cuerpo de la solicitud para el endpoint /recommend
+        payload = {
+            "mail": "Usuario",
+            "subject": "Recomendaciones musicales personalizadas",
+            "body": "Basado en tus preferencias musicales, estos son algunos artistas recomendados.",
+            "artists": [
+                {
+                    "nombre": artista["artist_name"],
+                    "fecha_evento": artista["concert_date"],
+                    "hora_evento": artista["concert_time"],
+                    "imagen": artista["photo_url"]
+                } for artista in artistas_a_enviar
+            ],
+            "destinationEmail": "lucasabello4@gmail.com"  # Modifica el correo según sea necesario
+        }
+
+        # Crear el nuevo JSON con los artistas recomendados
+        nuevo_json = {
+            "artistas": artistas_filtrados
+        }
+
+        # Devolver el nuevo JSON con los artistas recomendados como respuesta
+        return nuevo_json
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error interno al obtener recomendaciones: {str(e)}")
+
+@app.get("/json", summary="Devuelve el JSON principal de artistas.")
+def obtener_artistas_web():
+    try:
+        # Cargar el JSON principal desde el archivo
+        with open(json_principal_path, "r", encoding="utf-8") as infile:
+            json_principal = json.load(infile)
+        
+        # Asegurarse de que la estructura de datos es la esperada
+        if not isinstance(json_principal, dict) or "artistas" not in json_principal:
+            raise HTTPException(status_code=500, detail="El formato del archivo JSON principal es inválido.")
+
+        # Retornar el JSON principal
+        return json_principal
+    except FileNotFoundError:
+        raise HTTPException(status_code=500, detail="No se pudo encontrar el archivo JSON principal.")
+    except json.JSONDecodeError:
+        raise HTTPException(status_code=500, detail="Error al decodificar el archivo JSON principal.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error al cargar el archivo JSON: {str(e)}")

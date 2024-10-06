@@ -1,0 +1,506 @@
+[
+    {
+        "artistas": [
+          {
+            "artist_id": 1,
+            "artist_name": "The Beatles",
+            "genres": ["Rock", "Pop Rock", "Psychedelic Rock"]
+          },
+          {
+            "artist_id": 2,
+            "artist_name": "Bob Marley",
+            "genres": ["Reggae", "Ska", "Rocksteady"]
+          },
+          {
+            "artist_id": 3,
+            "artist_name": "Miles Davis",
+            "genres": ["Jazz", "Bebop", "Cool Jazz", "Jazz Fusion"]
+          },
+          {
+            "artist_id": 4,
+            "artist_name": "Madonna",
+            "genres": ["Pop", "Dance-Pop", "Electronic"]
+          },
+          {
+            "artist_id": 5,
+            "artist_name": "Metallica",
+            "genres": ["Heavy Metal", "Thrash Metal"]
+          },
+          {
+            "artist_id": 6,
+            "artist_name": "Bob Dylan",
+            "genres": ["Folk", "Folk Rock", "Country Rock"]
+          },
+          {
+            "artist_id": 7,
+            "artist_name": "Beyoncé",
+            "genres": ["R&B", "Pop R&B", "Hip Hop"]
+          },
+          {
+            "artist_id": 8,
+            "artist_name": "Johann Sebastian Bach",
+            "genres": ["Classical", "Baroque"]
+          },
+          {
+            "artist_id": 9,
+            "artist_name": "Eminem",
+            "genres": ["Hip Hop", "Rap", "Hardcore Hip Hop"]
+          },
+          {
+            "artist_id": 10,
+            "artist_name": "David Bowie",
+            "genres": ["Art Rock", "Glam Rock", "Experimental Rock"]
+          },
+          {
+            "artist_id": 11,
+            "artist_name": "Ella Fitzgerald",
+            "genres": ["Jazz Vocal", "Swing", "Traditional Pop"]
+          },
+          {
+            "artist_id": 12,
+            "artist_name": "Björk",
+            "genres": ["Art Pop", "Electronic", "Experimental"]
+          },
+          {
+            "artist_id": 13,
+            "artist_name": "Johnny Cash",
+            "genres": ["Country", "Rockabilly", "Gospel"]
+          },
+          {
+            "artist_id": 14,
+            "artist_name": "Prince",
+            "genres": ["Funk", "Soul", "Minneapolis Sound"]
+          },
+          {
+            "artist_id": 15,
+            "artist_name": "Radiohead",
+            "genres": ["Alternative Rock", "Art Rock", "Electronic Rock"]
+          },
+          {
+            "artist_id": 16,
+            "artist_name": "Stevie Wonder",
+            "genres": ["Soul", "R&B", "Funk"]
+          },
+          {
+            "artist_id": 17,
+            "artist_name": "Nina Simone",
+            "genres": ["Jazz", "Blues", "Soul"]
+          },
+          {
+            "artist_id": 18,
+            "artist_name": "Kraftwerk",
+            "genres": ["Electronic", "Synthpop", "Techno"]
+          },
+          {
+            "artist_id": 19,
+            "artist_name": "Bob Marley & The Wailers",
+            "genres": ["Reggae", "Roots Reggae"]
+          },
+          {
+            "artist_id": 20,
+            "artist_name": "Queen",
+            "genres": ["Rock", "Hard Rock", "Arena Rock"]
+          },
+          {
+            "artist_id": 21,
+            "artist_name": "Jay-Z",
+            "genres": ["Hip Hop", "East Coast Hip Hop"]
+          },
+          {
+            "artist_id": 22,
+            "artist_name": "Aretha Franklin",
+            "genres": ["Soul", "R&B", "Gospel"]
+          },
+          {
+            "artist_id": 23,
+            "artist_name": "Pink Floyd",
+            "genres": ["Progressive Rock", "Psychedelic Rock"]
+          },
+          {
+            "artist_id": 24,
+            "artist_name": "Rihanna",
+            "genres": ["Pop", "R&B", "Dance"]
+          },
+          {
+            "artist_id": 25,
+            "artist_name": "Chuck Berry",
+            "genres": ["Rock and Roll", "Blues"]
+          },
+          {
+            "artist_id": 26,
+            "artist_name": "Nirvana",
+            "genres": ["Grunge", "Alternative Rock"]
+          },
+          {
+            "artist_id": 27,
+            "artist_name": "Lady Gaga",
+            "genres": ["Pop", "Dance-Pop", "Art Pop"]
+          },
+          {
+            "artist_id": 28,
+            "artist_name": "Miles Davis",
+            "genres": ["Jazz", "Modal Jazz", "Jazz Fusion"]
+          },
+          {
+            "artist_id": 29,
+            "artist_name": "The Rolling Stones",
+            "genres": ["Rock", "Blues Rock"]
+          },
+          {
+            "artist_id": 30,
+            "artist_name": "Kendrick Lamar",
+            "genres": ["Hip Hop", "Conscious Hip Hop"]
+          },
+          {
+            "artist_id": 31,
+            "artist_name": "Dolly Parton",
+            "genres": ["Country", "Bluegrass", "Country Pop"]
+          },
+          {
+            "artist_id": 32,
+            "artist_name": "AC/DC",
+            "genres": ["Hard Rock", "Blues Rock"]
+          },
+          {
+            "artist_id": 33,
+            "artist_name": "Coldplay",
+            "genres": ["Alternative Rock", "Pop Rock"]
+          },
+          {
+            "artist_id": 34,
+            "artist_name": "Whitney Houston",
+            "genres": ["Pop", "R&B", "Soul"]
+          },
+          {
+            "artist_id": 35,
+            "artist_name": "Ludwig van Beethoven",
+            "genres": ["Classical", "Romantic"]
+          },
+          {
+            "artist_id": 36,
+            "artist_name": "The Who",
+            "genres": ["Rock", "Hard Rock", "Art Rock"]
+          },
+          {
+            "artist_id": 37,
+            "artist_name": "Drake",
+            "genres": ["Hip Hop", "R&B", "Pop Rap"]
+          },
+          {
+            "artist_id": 38,
+            "artist_name": "Tina Turner",
+            "genres": ["Rock", "Soul", "R&B"]
+          },
+          {
+            "artist_id": 39,
+            "artist_name": "Daft Punk",
+            "genres": ["Electronic", "House", "French House"]
+          },
+          {
+            "artist_id": 40,
+            "artist_name": "Kanye West",
+            "genres": ["Hip Hop", "Pop Rap", "Art Pop"]
+          },
+          {
+            "artist_id": 41,
+            "artist_name": "Led Zeppelin",
+            "genres": ["Hard Rock", "Blues Rock", "Folk Rock"]
+          },
+          {
+            "artist_id": 42,
+            "artist_name": "Elton John",
+            "genres": ["Pop Rock", "Glam Rock", "Soft Rock"]
+          },
+          {
+            "artist_id": 43,
+            "artist_name": "Marvin Gaye",
+            "genres": ["Soul", "R&B", "Funk"]
+          },
+          {
+            "artist_id": 44,
+            "artist_name": "Taylor Swift",
+            "genres": ["Pop", "Country Pop", "Indie Folk"]
+          },
+          {
+            "artist_id": 45,
+            "artist_name": "The Beach Boys",
+            "genres": ["Pop Rock", "Psychedelic Pop"]
+          },
+          {
+            "artist_id": 46,
+            "artist_name": "Guns N' Roses",
+            "genres": ["Hard Rock", "Heavy Metal"]
+          },
+          {
+            "artist_id": 47,
+            "artist_name": "Adele",
+            "genres": ["Pop", "Soul", "Blue-Eyed Soul"]
+          },
+          {
+            "artist_id": 48,
+            "artist_name": "John Coltrane",
+            "genres": ["Jazz", "Avant-Garde Jazz"]
+          },
+          {
+            "artist_id": 49,
+            "artist_name": "U2",
+            "genres": ["Rock", "Alternative Rock", "Post-Punk"]
+          },
+          {
+            "artist_id": 50,
+            "artist_name": "The Clash",
+            "genres": ["Punk Rock", "Post-Punk", "Reggae Rock"]
+          },
+          {
+            "artist_id": 51,
+            "artist_name": "Frank Sinatra",
+            "genres": ["Traditional Pop", "Vocal Jazz", "Easy Listening"]
+          },
+          {
+            "artist_id": 52,
+            "artist_name": "Red Hot Chili Peppers",
+            "genres": ["Funk Rock", "Alternative Rock"]
+          },
+          {
+            "artist_id": 53,
+            "artist_name": "Shakira",
+            "genres": ["Latin Pop", "Pop Rock", "Dance-Pop"]
+          },
+          {
+            "artist_id": 54,
+            "artist_name": "Black Sabbath",
+            "genres": ["Heavy Metal", "Doom Metal"]
+          },
+          {
+            "artist_id": 55,
+            "artist_name": "Destiny's Child",
+            "genres": ["R&B", "Pop", "Hip Hop Soul"]
+          },
+          {
+            "artist_id": 56,
+            "artist_name": "Green Day",
+            "genres": ["Punk Rock", "Pop Punk", "Alternative Rock"]
+          },
+          {
+            "artist_id": 57,
+            "artist_name": "Elvis Presley",
+            "genres": ["Rock and Roll", "Country", "Gospel"]
+          },
+          {
+            "artist_id": 58,
+            "artist_name": "Santana",
+            "genres": ["Latin Rock", "Blues Rock", "Jazz Fusion"]
+          },
+          {
+            "artist_id": 59,
+            "artist_name": "Foo Fighters",
+            "genres": ["Alternative Rock", "Post-Grunge", "Hard Rock"]
+          },
+          {
+            "artist_id": 60,
+            "artist_name": "Tupac Shakur",
+            "genres": ["Hip Hop", "West Coast Hip Hop", "Gangsta Rap"]
+          },
+          {
+            "artist_id": 61,
+            "artist_name": "Fleetwood Mac",
+            "genres": ["Rock", "Soft Rock", "Blues Rock"]
+          },
+          {
+            "artist_id": 62,
+            "artist_name": "Bruno Mars",
+            "genres": ["Pop", "Funk", "R&B"]
+          },
+          {
+            "artist_id": 63,
+            "artist_name": "The Police",
+            "genres": ["New Wave", "Reggae Rock", "Pop Rock"]
+          },
+          {
+            "artist_id": 64,
+            "artist_name": "Céline Dion",
+            "genres": ["Pop", "Adult Contemporary"]
+          },
+          {
+            "artist_id": 65,
+            "artist_name": "Pearl Jam",
+            "genres": ["Grunge", "Alternative Rock"]
+          },
+          {
+            "artist_id": 66,
+            "artist_name": "Buddy Holly",
+            "genres": ["Rock and Roll", "Rockabilly"]
+          },
+          {
+            "artist_id": 67,
+            "artist_name": "The Doors",
+            "genres": ["Psychedelic Rock", "Blues Rock"]
+          },
+          {
+            "artist_id": 68,
+            "artist_name": "Alicia Keys",
+            "genres": ["R&B", "Soul", "Pop"]
+          },
+          {
+            "artist_id": 69,
+            "artist_name": "Run-DMC",
+            "genres": ["Hip Hop", "Rap Rock"]
+          },
+          {
+            "artist_id": 70,
+            "artist_name": "Oasis",
+            "genres": ["Britpop", "Alternative Rock"]
+          },
+          {
+            "artist_id": 71,
+            "artist_name": "The Supremes",
+            "genres": ["Soul", "Pop"]
+          },
+          {
+            "artist_id": 72,
+            "artist_name": "Rush",
+            "genres": ["Progressive Rock", "Hard Rock"]
+          },
+          {
+            "artist_id": 73,
+            "artist_name": "Stevie Nicks",
+            "genres": ["Rock", "Pop Rock"]
+          },
+          {
+            "artist_id": 74,
+            "artist_name": "Talking Heads",
+            "genres": ["New Wave", "Art Punk", "Post-Punk"]
+          },
+          {
+            "artist_id": 75,
+            "artist_name": "Lauryn Hill",
+            "genres": ["Hip Hop", "Neo Soul", "R&B"]
+          },
+          {
+            "artist_id": 76,
+            "artist_name": "Depeche Mode",
+            "genres": ["Synthpop", "New Wave", "Electronic Rock"]
+          },
+          {
+            "artist_id": 77,
+            "artist_name": "Leonard Cohen",
+            "genres": ["Folk", "Folk Rock"]
+          },
+          {
+            "artist_id": 78,
+            "artist_name": "Rage Against the Machine",
+            "genres": ["Rap Metal", "Alternative Metal"]
+          },
+          {
+            "artist_id": 79,
+            "artist_name": "Dusty Springfield",
+            "genres": ["Pop", "Blue-Eyed Soul"]
+          },
+          {
+            "artist_id": 80,
+            "artist_name": "The Velvet Underground",
+            "genres": ["Experimental Rock", "Proto-Punk"]
+          },
+          {
+            "artist_id": 81,
+            "artist_name": "Snoop Dogg",
+            "genres": ["Hip Hop", "G-Funk"]
+          },
+          {
+            "artist_id": 82,
+            "artist_name": "Janis Joplin",
+            "genres": ["Blues Rock", "Psychedelic Rock"]
+          },
+          {
+            "artist_id": 83,
+            "artist_name": "The Cure",
+            "genres": ["Gothic Rock", "Post-Punk", "New Wave"]
+          },
+          {
+            "artist_id": 84,
+            "artist_name": "Willie Nelson",
+            "genres": ["Country", "Outlaw Country"]
+          },
+          {
+            "artist_id": 85,
+            "artist_name": "Sonic Youth",
+            "genres": ["Noise Rock", "Alternative Rock"]
+          },
+          {
+            "artist_id": 86,
+            "artist_name": "Donna Summer",
+            "genres": ["Disco", "Dance"]
+          },
+          {
+            "artist_id": 87,
+            "artist_name": "Bad Bunny",
+            "genres": ["Reggaeton", "Latin Trap"]
+          },
+          {
+            "artist_id": 88,
+            "artist_name": "Genesis",
+            "genres": ["Progressive Rock", "Pop Rock"]
+          },
+          {
+            "artist_id": 89,
+            "artist_name": "Patti Smith",
+            "genres": ["Punk Rock", "Art Rock", "Poetry Rock"]
+          },
+          {
+            "artist_id": 90,
+            "artist_name": "Dua Lipa",
+            "genres": ["Pop", "Nu-Disco", "Dance-Pop"]
+          },
+          {
+            "artist_id": 91,
+            "artist_name": "The Smiths",
+            "genres": ["Alternative Rock", "Indie Rock", "Post-Punk"]
+          },
+          {
+            "artist_id": 92,
+            "artist_name": "Fela Kuti",
+            "genres": ["Afrobeat", "Jazz", "African Jazz"]
+          },
+          {
+            "artist_id": 93,
+            "artist_name": "Iron Maiden",
+            "genres": ["Heavy Metal", "New Wave of British Heavy Metal"]
+          },
+          {
+            "artist_id": 94,
+            "artist_name": "Frank Ocean",
+            "genres": ["R&B", "Alternative R&B", "Art Pop"]
+          },
+          {
+            "artist_id": 95,
+            "artist_name": "The Ramones",
+            "genres": ["Punk Rock", "Pop Punk"]
+          },
+          {
+            "artist_id": 96,
+            "artist_name": "Billie Holiday",
+            "genres": ["Jazz", "Vocal Jazz", "Blues"]
+          },
+          {
+            "artist_id": 97,
+            "artist_name": "Massive Attack",
+            "genres": ["Trip Hop", "Electronic", "Downtempo"]
+          },
+          {
+            "artist_id": 98,
+            "artist_name": "Kate Bush",
+            "genres": ["Art Pop", "Progressive Pop", "Art Rock"]
+          },
+          {
+            "artist_id": 99,
+            "artist_name": "Slayer",
+            "genres": ["Thrash Metal", "Speed Metal"]
+          },
+          {
+            "artist_id": 100,
+            "artist_name": "Gloria Estefan",
+            "genres": ["Latin Pop", "Dance-Pop", "Cuban Pop"]
+          }
+        ]
+      }
+]
